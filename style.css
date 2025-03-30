@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0;
+    font-family: "Martel Sans", serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    overflow-x: hidden;
+
+}
+
+.main {
+    background-image: url("assets/images/IN-en-20250217-TRIFECTA-perspective_c3376e06-9aff-4657-aafb-91256a597b7c_large.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    height: 100vh;
+    position: relative;
+
+
+}
+
+.box {
+    height: 100vh;
+    width: 100%;
+    opacity: 0.74;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    max-width: 70vw;
+    justify-content: space-between;
+    margin: auto;
+    height: 100px;
+
+}
+
+nav img {
+    color: red;
+    width: 120px;
+    position: relative;
+    z-index: 2;
+
+}
+
+nav button {
+    position: relative;
+    z-index: 1;
+}
+
+.class {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90%;
+    position: relative;
+    z-index: 2;
+    font-family: "Martel Sans", serif;
+    padding: 0px;
+}
+
+.class>:first-child {
+    font-size: 56px;
+    font-weight: 900;
+
+}
+
+.class> :nth-child(2) {
+    font-size: 56px;
+    font-weight: 900;
+    line-height: 41.5px;
+}
+
+.class> :nth-child(3) {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 65.5px;
+}
+
+.class> :nth-child(4) {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 45px;
+}
+
+.class> :last-child {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 12px;
+
+}
+
+.b {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    gap: 14px;
+}
+
+
+
+.bt {
+    padding: 3px 8px;
+    font-weight: bolder;
+    background-color: rgba(245, 245, 245, 0.1);
+    border: 0.5px solid white;
+    color: white;
+    border-radius: 5px;
+    padding: 4px 30px 2px;
+    font-size: 14px;
+
+}
+
+.bt-red-sg {
+    color: white;
+    border: 1px solid red;
+    background-color: red;
+    padding: 3px 15px;
+}
+
+.bt-red {
+    padding: 2px 24px;
+    font-weight: bolder;
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 4px;
+    font-size: 24px;
+    cursor: pointer;
+
+
+}
+
+.hero-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+
+}
+
+.main input {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 11px 133px 7px 14px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.541)
+}
+
+.curved-line {
+    position: absolute;
+
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1%;
+    /* Very thin line */
+    background: linear-gradient(to right, rgba(255, 0, 0, 0.8), rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0.8));
+    border-radius: 50% / 100% 100% 0 0;
+    /* Creates a subtle curve */
+    z-index: 5;
+    /* Ensures it's visible over the image */
+    opacity: 0.85;
+    /* Slight transparency for a smooth effect */
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 255, 0.7);
+}
+
+.trending {
+
+    background-color: black;
+    overflow-x: hidden;
+
+}
+
+.container {
+    display: flex;
+    position: relative;
+    gap: 5px;
+    padding: 70px;
+    bottom: 40px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+  h1{
+    position: relative;
+    left: 80px;
+    padding-top: 60px;
+    font-size: 24px;
+    color: white;
+    font-weight: bolder;
+}
+
+.img-box {
+    padding-left: 30px;
+    position: relative;
+    cursor: pointer;
+    box-sizing: border-box;
+
+}
+
+.img-box img {
+
+    
+    width: 80%;
+    border-radius: 7px;
+}
+
+.number {
+    position: absolute;
+    top: 140px;
+    left: 10px;
+
+    color: rgb(12, 12, 12);
+    font-size: 94px;
+    font-weight: bold;
+    width: 30px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+
+    -webkit-text-stroke: 1px white;
+
+}
+
+.heading {
+    padding: 0px 32px 0px;
+    margin: 0px;
+    position: relative;
+    bottom: 55px;
+    display: flex;
+    align-items: center;
+}
+
+.boxes {
+    display: flex;
+    gap: 20px;
+    padding: 0px 115px 0px;
+    flex-wrap: wrap;
+
+
+
+}
+
+.class0 {
+    height: 320px;
+    width: 250px;
+    border: 2px solid 149deg,
+        #192247 0%,
+        #210e17 96.86%;
+    border-radius: 15px;
+
+    color:
+        rgb(255, 255, 255);
+    padding: 25px;
+    font-size: 24px;
+    font-weight: 500;
+    background: linear-gradient(149deg,
+            #192247 0%,
+            #210e17 96.86%);
+    line-height: 37px;
+
+}
+
+.class0 p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.face img {
+    position: relative;
+    left: 130px;
+    bottom: 50px;
+}
+
+.name img {
+    position: relative;
+    top: 30px;
+}
+
+.last h1 {
+   padding: 50px 45px 5px;
+    color: white;
+    font-size: 24px;
+    line-height: normal;
+}
+
+.Questions {
+    justify-content: space-between;
+    display: flex;
+    background-color: rgb(45, 45, 45, 1);
+    padding: 15px;
+    color: white;
+    max-width: 180vh;
+    margin: 10px auto;
+    font-weight: 400;
+    font-size: 24px;
+    
+    box-sizing: border-box;
+}
+.Questions svg{
+    width: 40px;
+    display: flex;
+    filter: invert(1); 
+}
+.end{
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 34px 0px ;
+}
+.endl span{
+   
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.endl input{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 11px 133px 7px 14px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.541);
+}
+ .call {
+    color:  #ffffffb3;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 55px;
+    margin-left: 85px;    
+    text-decoration: underline;
+}
+.foot{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 80vw;
+    margin: auto;
+   padding-bottom: 45px;
+
+    
+}
+.grid{
+    display: flex;
+    flex-direction: column;
+}
+.grid a{
+    color: 
+    rgba(255, 255, 255, 0.7);
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 31px;
+}
+.language-selector{
+    padding: 15px 120px;
+}
+ .cont{
+    width: 10%;
+   border-radius: 20px;
+   font-size: 16px;
+   font-weight: 400px;
+   
+   border: 0 solid transparent;
+   cursor: pointer;
+    
+}
+.netflix-location{
+    font-size: 16px;
+    font-weight: 400px;
+    color: 
+    rgba(255, 255, 255, 0.7);
+    padding: 15px 120px
+}
+
+
